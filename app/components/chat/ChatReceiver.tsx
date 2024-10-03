@@ -15,7 +15,7 @@ const ChatReceiver: React.FC<ChatReceiverProps> = ({ content, timestamp, isWaiti
             <div className="box-messages flex gap-2.5 justify-end">
                 <div className="">
                     <div className="grid mb-2">
-                        <h5 className="text-right text-gray-900 text-sm font-semibold leading-snug pb-1">AI</h5>
+                        <h5 className="text-right text-gray-900 text-sm font-semibold leading-snug pb-1 dark:text-white">AI</h5>
 
                         {isWaiting ? (
                             <div className="flex items-center">

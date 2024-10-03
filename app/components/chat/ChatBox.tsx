@@ -54,7 +54,7 @@ const ChatBox = ({ onSendMessage }: { onSendMessage: (message: string) => void }
 
 	return (
 		<>
-			<div className="w-full pl-3 pr-1 py-1 rounded-3xl border border-gray-200 items-center gap-2 inline-flex justify-between">
+			<div className="w-full pl-3 pr-1 py-1 rounded-3xl border bg-white border-gray-200 items-center gap-2 inline-flex justify-between">
 				<div className="flex items-center w-full gap-2">
 					<input
 						className="grow w-full h-10 shrink basis-0 text-black text-md font-medium leading-4 focus:outline-none"

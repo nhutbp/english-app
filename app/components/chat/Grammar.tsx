@@ -37,13 +37,13 @@ const Grammar: React.FC<GrammarProps> = ({ sender, content }) => {
         <div className="flex gap-2.5 mb-5">
             <img src="https://pagedone.io/asset/uploads/1710412177.png" alt="Shanay image" className="w-10 h-11" />
             <div className="grid">
-                <h5 className="text-gray-900 text-sm font-semibold leading-snug pb-1">{sender}</h5>
+                <h5 className="text-gray-900 text-sm font-semibold leading-snug pb-1 dark:text-white">{sender}</h5>
                 <div className="grid">
                     <div className="px-3.5 py-2 bg-gray-100 rounded justify-start items-center gap-3 inline-flex">
                         <h5 className="text-gray-900 text-sm font-normal leading-snug">{content}</h5>
                     </div>
                     {loading ? (
-                        <p>Đang kiểm tra...</p>
+                        <p className="text-gray-900 dark:text-white text-sm">Đang kiểm tra...</p>
                     ) : (
                         <div className="px-3.5 py-2 mt-2 bg-gray-200 rounded justify-start items-center gap-3 inline-flex">
                             {/* Sử dụng dangerouslySetInnerHTML để hiển thị kết quả AI */}

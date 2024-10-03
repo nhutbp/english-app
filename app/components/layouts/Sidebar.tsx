@@ -44,7 +44,7 @@ const Sidebar = () => {
 			}`}>
 			{/* Sidebar header */}
 			<div className={`flex items-center justify-between flex-shrink-0 p-2 ${!isSidebarOpen ? "lg:justify-center" : ""}`}>
-				<span className="p-2 text-xl font-semibold leading-8 tracking-wider uppercase whitespace-nowrap">
+				<span className="p-2 text-xl font-semibold leading-8 tracking-wider uppercase whitespace-nowrap dark:text-white">
 					L<span className={!isSidebarOpen ? "lg:hidden" : ""}>-English</span>
 				</span>
 				<button onClick={toggleSidebar} className="p-2 rounded-md lg:hidden">
