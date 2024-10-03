@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  @apply bg-white dark:bg-gray-950;
+
+  @media (prefers-color-scheme: dark) {
+    color-scheme: dark;
+  }
+  scroll-padding-top: 200px;
+  scroll-behavior: smooth;
+}
+.ai-render-content h2 {
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.side-bar a.active * {
+    opacity: 1;
+}
